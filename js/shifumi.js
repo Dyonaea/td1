@@ -5,6 +5,8 @@ let resj = document.getElementById("resj")
 let resb = document.getElementById("resb")
 let res = document.getElementById("res")
 
+let aah = document.getElementById("aah")
+
 papier.addEventListener('click', () => {
     jouer("papier")
 })
@@ -44,6 +46,7 @@ function jouer(rep){
 function whoWins(j1, j2){
     resj.textContent = j1
     resb.textContent = j2
+    aah.classList.remove("ghost")
 
     if(j1 == j2) res.textContent = "egalite" 
     else{

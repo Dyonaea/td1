@@ -1,5 +1,35 @@
-div{
+body{
+    background: url(https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Malphite_1.jpg);
+    background-size: 100%;
+}
+
+.center{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+
+}
+
+.column{
+    flex-direction: column;
+}
+
+.controls{
+    
+    width: 100%;
+    height: 10em;
+}
+#caillou{
+    background: url(https://img.pikbest.com/wp/202344/stone-background-texture-close-up-view-of-wall_9936073.jpg!w700wp) ;
+}
+#papier{
+    background: url(https://img.freepik.com/photos-gratuite/fond-texture-papier-espace-design_53876-147801.jpg);
+}
+#decoupage{
+    background: url(https://t3.ftcdn.net/jpg/02/73/84/58/360_F_273845863_MD86inTfx1waq5zMeV60mPbwRn4pwN59.jpg);
+    background-size: 33%;
+    background-position: center;
+}
+.ghost{
+    display: none;
 }
